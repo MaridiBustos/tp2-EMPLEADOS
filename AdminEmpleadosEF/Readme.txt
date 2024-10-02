@@ -1,9 +1,11 @@
 ﻿Enable-Migrations: Enables the migration in your project by creating a Configuration class.
-Add-Migration: Creates a new migration class as per specified name with the Up() and Down() methods.
+
+--crear la carpeta migration con los mapeos
+Add-Migration nombre_cualquiera: Creates a new migration class as per specified name with the Up() and Down() methods.
+
+--llevar los cambios de migration a la BD
 Update-Database: Executes the last migration file created by the Add-Migration command and applies changes to the database schema.
-update-database nombre_version : vuelve a la version inicial
-Remove-Migration (si no se aplico en la BD)
-Remove-Migration -force (si ya se aplico en la BD)
+
 
 
 
